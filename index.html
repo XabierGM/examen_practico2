@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">El equipo</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Gracias por contactar con nosotros</h1>  
+        <form id="contact" action="" method="post">
+        <h3>Formulario de contacto</h3>
+        <h4>Mándenos sus dudas</h4>
+
+        <fieldset>
+            <label for="sexo">Indique su sexo:</label>
+            <input type="radio" class="check">Hombre
+            <input type="radio" class="check">Mujer
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Nombre" type="text" tabindex="1" minlenght="5" maxlength="20" required autofocus>
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Correo electrónico" type="email" pattern="[a-z0-9._%+-]+@BigCorp.org" tabindex="2" required>
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Su número de teléfono" type="tel" tabindex="3" pattern="[0-9]{9}" required>
+        </fieldset>
+
+        <fieldset>
+            <input type="text" placeholder="Ciudad de nacimiento" tabindex="4">
+        </fieldset>
+
+        <fieldset>
+            <label for="pais">País de nacimiento:</label>
+            <select name="select" tabindex="5">
+                <option value="spain">España</option>
+                <option value="france">Francia</option>
+                <option value="alemania">Alemania</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label for="nac">Nacionalidad:</label>
+            <select name="select2" tabindex="6">
+                <option value="spanish">Española</option>
+                <option value="french">Francesa</option>
+                <option value="german">Alemana</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label for="passpais">País emisor:</label>
+            <select name="select" tabindex="7">
+                <option value="spain">España</option>
+                <option value="france">Francia</option>
+                <option value="alemania">Alemania</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <input placeholder="Su página web (opcional)" type="url" tabindex="8">
+        </fieldset>
+
+        <fieldset>
+            <textarea placeholder="Aquí su mensaje..." tabindex="9" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="Enviando">Enviar</button>
+        </fieldset>
+
+        <fieldset>
+            <input type="checkbox"> Suscribirse a la newsletter
+        </fieldset>
+
+        </form>
+    </div>
+
+    <footer>
+        <ul>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">El equipo</a></li>
+        <li><a href="#">Contacto</a></li>
+        </ul>
+        <ul class="social-row">
+        <li><a href="https://github.com/my-github-profile"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://twitter.com/my-twitter-profile"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/my-linkedin-profile"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

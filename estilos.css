@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: #4c66af;
+    }
+
+nav {
+        height: 40px;
+        padding: 1em;
+        font-size: 14pt;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:  #0a0a23;
+}
+    
+ul {
+            padding: 0;
+}
+        
+ul li {
+            list-style: none;
+            display: inline;
+}
+        
+a {
+            font-weight: 700;
+            margin: 0 25px;
+            color: #fff;
+            text-decoration: none;
+}
+        
+a:hover {
+            padding-bottom: 5px;
+            box-shadow: inset 0 -2px 0 0 #fff;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 22pt
+}
+    
+    .container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    }
+    
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea,
+    #contact button[type="submit"] {
+    font: 400 16px/19px "Roboto", Helvetica, Arial, sans-serif;
+    }
+    
+    #contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
+    
+    #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+    form{
+        font-size: 14pt;
+    }
+    
+    #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    }
+
+    label{
+        font-size: 12pt;
+    }
+
+    select{
+        padding: 0.5em;
+    }
+    
+    fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+    }
+    
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    }
+    
+    #contact input[type="text"]:hover,
+    #contact input[type="email"]:hover,
+    #contact input[type="tel"]:hover,
+    #contact input[type="url"]:hover,
+    #contact textarea:hover {
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+    }
+    
+    #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+    }
+    
+    .check{
+        margin: 1em;
+    }
+    #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4c66af;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    }
+    
+    #contact button[type="submit"]:hover {
+    background: #4359a0;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+    #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+    }
+    
+    .copyright {
+    text-align: center;
+    }
+    
+    #contact input:focus,
+    #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+    }
+
+    footer {
+        height: 60px;
+        padding: 0 10px;
+        font-size: 15pt;
+        list-style: none;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #dfdfe2;
+    }
+
+    ul {
+        padding: 0;
+    }
+    
+    ul li {
+        list-style: none;
+        display: inline;
+    }
+    
+    a {
+        margin: 0 15px;
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        padding-bottom: 5px;
+        box-shadow: inset 0 -2px 0 0 #333;
+    }
+    
+    .social-row {
+        font-size: 29px;
+    }
+    
+    .social-row li a {
+        margin: 0 15px;
+    }
+
+    @media (max-width: 600px) {
+
+        footer{
+            display: block;
+            height: fit-content;
+            padding: 1em;
+        }
+        footer ul{
+            display: block;
+            text-align: center;
+            width: 100%;
+            font-size: 16pt;
+        }
+}
